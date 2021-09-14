@@ -5,7 +5,7 @@
         "mawuekom",
         "laravel-lang-resources"
     ],
-    "homepage": "https://github.com/mawuekom/laravel-lang-resources",
+    "homepage": "https://github.com/mawuva/laravel-lang-resources",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Mawuekom\\LaravelLangResources\\": "src"
+            "Mawuekom\\LangResources\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Mawuekom\\LaravelLangResources\\Tests\\": "tests"
+            "Mawuekom\\LangResources\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mawuekom\\LaravelLangResources\\LaravelLangResourcesServiceProvider"
+                "Mawuekom\\LangResources\\LangResourcesServiceProvider"
             ],
             "aliases": {
-                "LaravelLangResources": "Mawuekom\\LaravelLangResources\\LaravelLangResourcesFacade"
+                "LangResources": "Mawuekom\\LangResources\\LangResourcesFacade"
             }
         }
     }

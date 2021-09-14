@@ -1,13 +1,13 @@
 <?php
 
-namespace Mawuekom\LaravelLangResources;
+namespace Mawuekom\LangResources;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Mawuekom\LaravelLangResources\Skeleton\SkeletonClass
+ * @see \Mawuekom\LangResources\Skeleton\SkeletonClass
  */
-class LaravelLangResourcesFacade extends Facade
+class LangResourcesFacade extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -16,6 +16,6 @@ class LaravelLangResourcesFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'laravel-lang-resources';
+        return 'lang-resources';
     }
 }

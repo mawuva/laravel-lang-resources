@@ -1,0 +1,54 @@
+{
+    "name": "mawuekom/laravel-lang-resources",
+    "description": "Laravel lang resources",
+    "keywords": [
+        "mawuekom",
+        "laravel-lang-resources"
+    ],
+    "homepage": "https://github.com/mawuekom/laravel-lang-resources",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ephraïm Seddor",
+            "email": "seddorephraim7@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mawuekom\\LaravelLangResources\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mawuekom\\LaravelLangResources\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mawuekom\\LaravelLangResources\\LaravelLangResourcesServiceProvider"
+            ],
+            "aliases": {
+                "LaravelLangResources": "Mawuekom\\LaravelLangResources\\LaravelLangResourcesFacade"
+            }
+        }
+    }
+}

@@ -117,6 +117,22 @@ return [
             'phone_number'  => 'Numéro de téléphone invalide',
             'password'      => 'Mot de passe incorrect',
         ],
+        
+        'entity'            => [
+            'created'               => ':Entity a été créé(e) avec succès.',
+            'saved'                 => ':Entity a été enregistré(e) avec succès.',
+            'list'                  => 'Liste des :Entity.',
+            'list_with_deleted'     => 'Liste des :Entity avec données supprimées inclus.',
+            'search_results'        => 'Résultats de la recherche des :Entity.',
+            'deleted_list'          => 'Liste des :Entity supprimé(e)s.',
+            'resource'              => 'Données :Entity.',
+            'updated'               => ':Entity a été mis(e) à jour avec succès.',
+            'changed'               => ':Entity a été changé(e) avec succès.',
+            'deleted'               => ':Entity a été supprimé(e) avec succès.',
+            'restored'              => ':Entity a été restauré(e) avec succès.',
+            'deleted_permanently'   => ':Entity a été définitivement supprimé(e) avec succès.',
+            'removed'               => ':Entity a été définitivement supprimé(e) avec succès.',
+        ],
     ],
 
     /*

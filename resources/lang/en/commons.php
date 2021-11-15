@@ -120,6 +120,22 @@ return [
             'phone_number'  => 'Invalid phone number',
             'password'      => 'Invalid password',
         ],
+        
+        'entity'            => [
+            'created'               => ':Entity has been created successfully.',
+            'saved'                 => ':Entity has been saved successfully.',
+            'list'                  => 'Get :Entity list.',
+            'list_with_deleted'     => 'Get :Entity list with trashed data included.',
+            'search_results'        => 'Get :Entity search results.',
+            'deleted_list'          => 'Get deleted :Entity list.',
+            'resource'              => 'Get :Entity resource.',
+            'updated'               => ':Entity has been updated successfully.',
+            'changed'               => ':Entity has been changed successfully.',
+            'deleted'               => ':Entity has been deleted successfully.',
+            'restored'              => ':Entity has been restored successfully.',
+            'deleted_permanently'   => ':Entity has been deleted permanently successfully.',
+            'removed'               => ':Entity has been deleted permanently successfully.',
+        ],
     ],
 
     /*

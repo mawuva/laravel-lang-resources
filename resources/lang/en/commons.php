@@ -136,6 +136,14 @@ return [
             'deleted_permanently'   => ':Entity has been deleted permanently successfully.',
             'removed'               => ':Entity has been deleted permanently successfully.',
         ],
+        
+        'completed'           => [
+            'creation'              => 'Creation successfully completed',
+            'update'                => 'Update successfully completed',
+            'deletion'              => 'Deletion successfully completed',
+            'restoration'           => 'Restoration successfully completed',
+            'permanent_deletion'    => 'Permanent deletion successfully completed',
+        ],
     ],
 
     /*

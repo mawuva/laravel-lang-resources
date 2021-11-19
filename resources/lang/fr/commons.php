@@ -133,6 +133,14 @@ return [
             'deleted_permanently'   => ':Entity a été définitivement supprimé(e) avec succès.',
             'removed'               => ':Entity a été définitivement supprimé(e) avec succès.',
         ],
+        
+        'completed'           => [
+            'creation'              => 'Création effectuée avec succès',
+            'update'                => 'Mise à jour effectuée avec succès',
+            'deletion'              => 'Suppression effectuée avec succès',
+            'restoration'           => 'Restauration effectuée avec succès',
+            'permanent_deletion'    => 'Suppression permanente effectuée avec succès',
+        ],
     ],
 
     /*

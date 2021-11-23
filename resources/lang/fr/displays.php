@@ -21,6 +21,7 @@ return [
         'login'                     => 'Connectez-vous à votre compte',
         'forgot_password'           => 'Mot de passe oublié ?',
         'password_confirmation'     => 'Confirmation du mot de passe',
+        'password_reset'            => 'Réinitialisation du mot de passe',
         'confirm_password'          => 'Confirmer le mot de passe',
     ],
 

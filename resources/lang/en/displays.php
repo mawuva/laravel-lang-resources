@@ -21,6 +21,7 @@ return [
         'login'                         => 'Login To Your Account',
         'forgot_password'               => 'Forgot Password?',
         'password_confirmation'         => 'Password confirmation',
+        'password_reset'                => 'Reset Password',
         'confirm_password'              => 'Confirm Password',
     ],
 

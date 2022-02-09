@@ -1,5 +1,8 @@
 # Laravel lang resources files
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/mawuekom/laravel-lang-resources.svg?style=flat-square)](https://packagist.org/packages/mawuekom/laravel-lang-resources)
+[![Total Downloads](https://img.shields.io/packagist/dt/mawuekom/laravel-lang-resources.svg?style=flat-square)](https://packagist.org/packages/mawuekom/laravel-lang-resources)
+
 This package provides usefull lang files to help you in your laravel multilanguages project.
 
 ## Installation

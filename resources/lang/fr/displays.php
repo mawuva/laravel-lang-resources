@@ -37,9 +37,9 @@ return [
 
     'auth'                          => [
         'sign_up'                   => 'S\'inscrire',
-        'sign_in'                   => 'Connexion',
-        'register'                  => 'S\'inscrire',
-        'login'                     => 'Connexion',
+        'sign_in'                   => 'Se connecter',
+        'register'                  => 'Enregistrez-vous',
+        'login'                     => 'Connectez-vous',
         'logout'                    => 'Déconnexion',
     ],
 
